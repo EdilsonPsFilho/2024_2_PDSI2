@@ -29,7 +29,7 @@ def read_root():
 
 @app.get("/quadrado/{num}")
 def square (num: int):
-    return num ** 4
+    return num ** 2
 
 # @app.post("/criar")
 # def criar_valores(res: dict = Body(...)):
